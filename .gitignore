@@ -1,0 +1,20 @@
+# 依存パッケージ・ビルド成果物
+node_modules/
+dist/
+
+# CDK の出力
+cdk.out/
+cdk.context.json
+outputs.json
+
+# 認証情報・環境変数
+.env
+.env.*
+
+# 負荷スクリプトの結果
+results/
+
+# その他
+*.zip
+*.log
+.DS_Store
